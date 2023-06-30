@@ -1,0 +1,28 @@
+### registe user..
+post http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "mouli001",
+    "name": "chandramouli",
+    "password": "mouli@111",
+    "gender": "male",
+    "location": "hyderabad"
+}
+###
+
+post http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "mouli001",
+    "password": "mouli@111"
+}
+
+###
+get http://localhost:3000/states/
+###
+
+get http://localhost:3000/states/2/stats/
+###
+
